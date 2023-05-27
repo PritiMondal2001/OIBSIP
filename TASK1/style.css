@@ -1,0 +1,308 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    -webkit-font-smoothing:antialised; 
+    font-family: 'popins',sans-serif;  
+   
+}
+.container{
+    max-width:1000px;
+    padding: 0 100px;
+    margin: 0 auto; 
+    
+
+}
+body{
+    background-image: url(/back2.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+
+}
+.navbar h3{
+    color: indigo;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    font-style: italic;
+}
+.navbar a{
+  
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:rebeccapurple;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+.button .btn{
+    text-decoration:solid;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:Arial;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 20px;
+    background-color:blueviolet;
+    border-radius: 5px;
+    color:pink;
+    cursor: pointer;
+    transition: all .3s ease;
+    
+}
+.button .btn:hover{
+    background-color: azure;
+    color:rebeccapurple;
+}
+.content{
+    width:100%;
+    min-height: 10vh;
+    position: absolute;
+    left:20%;
+    margin-top: 6%;
+    display: flex;
+    justify-content:space-between;
+    text-align:left ;
+    flex-direction: column;
+
+}
+.content h1{
+  font-size: 40px;
+  color:purple;
+  font-weight: 400;
+  font-style: italic;
+}
+.content h2{
+    color:rgb(16, 14, 19);
+    font-style: italic;
+    font-family:'Cambria';
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 16px;
+    color:rgb(231, 34, 116);
+    justify-content:space-between;
+    font-weight:lighter;
+    font-style: italic;
+}
+.content .shopnow .btn{
+    text-decoration:solid;
+    font-weight: bold;
+    left:10%;
+    margin-top: 30px;
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: purple;
+    border-radius: 5px;
+    color:pink;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.content .shopnow .btn:hover{
+    background-color:plum;
+    color: black;
+}
+.rightflex img{
+    margin-left: 50rem;
+    height:340px;
+    width: 400px;
+    border: 3px solid;
+    border-color: rgb(247, 140, 220);
+    border-radius: 40%;
+    margin-top: 4rem;
+}
+.pro h1{
+    margin-top: 5%;
+    text-align: center;
+    font-style: italic;
+    color: purple;
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pro1 img{
+    margin-top: 3%;
+    margin-left: 50px;
+    height:340px;
+    width: 400px;
+    border-radius: 40%;
+    border: 3px solid;
+    border-color: rgb(247, 140, 220);
+}
+.pro1 .pro1about h3{
+    top:125%;
+    min-height: 6vh;
+    position: absolute;
+    left:40%;
+    display: flex;
+    justify-content:space-between;
+    text-align:left ;
+    flex-direction: column;
+    color: purple;
+}
+.pro1 .pro1about p{
+    top:130%;
+    min-height: 6vh;
+    position: absolute;
+    left:40%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: italic;
+    color: deeppink;
+    display: flex;
+    justify-content:space-between;
+    text-align:left ;
+    flex-direction: column;
+}
+.pro2 img{
+    margin-top: 3%;
+    margin-left: 50px;
+    height:340px;
+    width: 400px;
+    border-radius: 40%;
+    border: 3px solid;
+    border-color: rgb(247, 140, 220);
+}
+.pro2 .pro2about h3{
+    top:190%;
+    min-height: 6vh;
+    position: absolute;
+    left:40%;
+    display: flex;
+    justify-content:space-between;
+    text-align:left ;
+    flex-direction: column;
+    color: purple;
+}
+.pro2 .pro2about p{
+    top:194%;
+    min-height: 6vh;
+    position: absolute;
+    left:40%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: deeppink;
+    display: flex;
+    justify-content:space-between;
+    text-align:left ;
+    flex-direction: column;
+}
+.pro3 img{
+    margin-top: 3%;
+    margin-left: 50px;
+    height:340px;
+    width: 400px;
+    border-radius: 40%;
+    border: 3px solid;
+    border-color: rgb(247, 140, 220);
+}
+.pro3 .pro3about h3{
+    top:255%;
+    min-height: 6vh;
+    position: absolute;
+    left:40%;
+    display: flex;
+    justify-content:space-between;
+    text-align:left ;
+    flex-direction: column;
+    color: purple;
+}
+.pro3 .pro3about p{
+    top:260%;
+    min-height: 6vh;
+    position: absolute;
+    left:40%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: deeppink;
+    display: flex;
+    justify-content:space-between;
+    text-align:left ;
+    flex-direction: column;
+}
+.EX .btn{
+    text-decoration:solid;
+    font-weight: bold;
+    margin-left:45%;
+    margin-top: 50px;
+    margin-bottom: 10%;
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: purple;
+    border-radius: 5px;
+    color:pink;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.EX .btn:hover{
+    background-color: azure;
+    color:rebeccapurple;
+    font-weight: bold;
+  
+}
+.column {
+    float: left;
+    width: 29%;
+    height: 20%;
+    padding: 0 5px;
+    justify-content: space-between;
+  }
+  
+  .row {
+    max-height: 50%;
+    margin-left: 18% ;
+}
+  .row:after {
+    
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+       
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #9d5be9;
+    color: rgba(0, 2, 12, 0.842);
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+  .card:hover{
+    background-color: azure;
+    
+  }
+  .fa {font-size:50px;}
+  .social{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color:black;
+
+  }
+  .social a{
+    padding: 10px;
+    background-color: rgb(248, 234, 234);
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+  .social a:hover{
+    background-color: rgb(159, 86, 228);
+  }
